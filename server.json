@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/detran_mg_publicacao_dano-mcp",
+  "title": "DETRAN MG: Publicação de Dano (média e grande monta)",
+  "description": "DETRAN MG: Publicação de Dano (média e grande monta), official-source lookup. Platform-hosted, pay p",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/detran_mg_publicacao_dano-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_detran_mg_publicacao_dano"
+    }
+  ]
+}
